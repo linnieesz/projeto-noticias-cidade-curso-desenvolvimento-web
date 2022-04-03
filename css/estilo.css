@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebouchet MS", Helvetica, sans-serif;
+}
+
+#container{
+	margin: 0 15%;
+}
+
+#cabecalho{
+	background: #294c71 url(../imagens/fundo.png) repeat-x bottom;
+	width: 100%;
+	height: 250px;
+}
+
+#cabecalho img{
+	float: right;
+}
+
+#marca{
+	color: #fff;
+}
+
+#barra-navegacao{
+
+}
+
+#barra-navegacao ul{
+	list-style: none;
+}
+
+#barra-navegacao li{
+	text-decoration: none;
+	float: left;
+}
+
+#barra-navegacao li a{
+	background-color: #8e052b;
+	text-decoration: none;
+	color: #fff;
+	padding: 10px;
+	line-height: 5em;
+}
+
+#barra-navegacao a .selecionado
